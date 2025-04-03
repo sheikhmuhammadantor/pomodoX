@@ -1,0 +1,26 @@
+.menu-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.menu-div h2 a {
+    font-size: 28px;
+    color: cyan;
+    text-shadow: 0 1px white;
+    cursor: pointer;
+}
+
+.menu-div h2 a span {
+    color: red;
+    text-shadow: none;
+    font-weight: bold;
+}
+
+.menu-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
