@@ -11,7 +11,7 @@ const PomodoX = () => {
   const timerRef = useRef<number | null>(null);
 
   useEffect(() => {
-    setTimeLeft((isWorkTime ? workDuration : breakDuration) * 2);
+    setTimeLeft((isWorkTime ? workDuration : breakDuration) * 60);
   }, [workDuration, breakDuration, isWorkTime]);
 
   useEffect(() => {
