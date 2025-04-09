@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Keep only in local
+Demo
+test.*
+tailwind.config.js

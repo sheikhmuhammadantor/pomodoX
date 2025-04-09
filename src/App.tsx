@@ -1,17 +1,10 @@
 import "./App.css";
-import CountDown from "./components/count-down/CountDown";
-import Menu from "./components/menu/Menu";
+import PomodoX from "./components/Pomodox/PomodoX";
 
 function App() {
   return (
     <section>
-      <div>
-        <Menu />
-      </div>
-      <br />
-      <div>
-        <CountDown />
-      </div>
+      <PomodoX />
     </section>
   );
 }
